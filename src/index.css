@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F3FCFF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.dropdown-menu.show {
+  left: -130px;
+  height: 200px;
+  width: 200px;
+  overflow-y: scroll;
+}
+
+.handlehover:hover {
+  border: 1px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.navbar{
+  margin-right: 0px;
+}
+
+.navbar-word{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
 }
