@@ -1,3 +1,9 @@
+# Run This App
+first install all the packages needed with command
+`npm install`
+and then run this app with command 
+`npm run start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
